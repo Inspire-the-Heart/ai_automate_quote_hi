@@ -2,8 +2,7 @@ name: Vionix Pipeline
 
 on:
   schedule:
-    - cron: "0 4,9,15,18 * * *"
-
+    - cron: "0 15 * * *"   # Hindi
 concurrency:
   group: vionix-pipeline
   cancel-in-progress: true
